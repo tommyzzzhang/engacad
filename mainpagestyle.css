@@ -42,7 +42,7 @@ h1, h2, h3{
 #main{
     width: 600px;
     float: right;
-    font-family:cursive;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 #footer{
     clear: both;
