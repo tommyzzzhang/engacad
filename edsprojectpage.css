@@ -1,10 +1,10 @@
 body{
     background-color: silver;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 a{
-    color: red;
     text-decoration: none;
+    color: red;
 }
 h1, h2, h3{
     margin: 0;
@@ -18,16 +18,16 @@ h1, h2, h3{
 #header{
     background-color: powderblue;
     color: black;
-    text-align:center;
-    padding: 20px;
+    text-align: center;
+    padding:20px;
 }
 #content{
     padding: 20px 20px 0px 20px;
 }
 #nav{
     width: 180px;
-    float:left;
-    font-size:larger;
+    float: left;
+    font-size: larger;
     font-style: italic;
 }
 #nav ul{
@@ -40,8 +40,8 @@ h1, h2, h3{
     color: blue;
 }
 #nav ul .option{
-    font-weight:500;
-    font-size: large;
+    font-weight: 500;
+    font-size: medium;
     color: blue;
 }
 #nav ul .shirt{
@@ -49,34 +49,29 @@ h1, h2, h3{
     font-size: medium;
     color:blue;
 }
-#nav .webpage{
-    font-weight: 500;
+#nav ul .webpage{
+    font-weight:500;
     font-size: medium;
-    color: blue;
+    color:blue;
 }
-#nav .selected{
+#nav ul .selected{
     font-weight: 700;
     font-size: larger;
 }
 #main{
     width: 600px;
-    float:right;
-    font-family:Georgia, 'Times New Roman', Times, serif
+    float: right;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
-#main ul p{
-    font-size:medium;
-    color: black;
-}
-#main ul{
-    list-style-type:none;
-    font-size: large;
-    color:teal;
+#main p{
+    font-size:large;
+    color: teal;
 }
 #footer{
     clear: both;
-    padding: 5px;
+    padding:5px;
     background-color: #999999;
-    color:white;
+    color: white;
     text-align: right;
 }
 #footer ul{
@@ -86,5 +81,4 @@ h1, h2, h3{
 }
 #footer a{
     color: pink;
-    padding: 0;
 }
