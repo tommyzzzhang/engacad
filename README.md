@@ -1,2 +1,2 @@
 # test
-This website is all about Tommy ZhangXianYang.
+This website is all about Tommy
